@@ -1,0 +1,53 @@
+{
+  "app_name_reference": "TTS Pintar Islami",
+  "game_data": [
+    {
+      "level": "Easy",
+      "grid_config": "5x5",
+      "questions": [
+        { "id": 1, "clue": "Kitab suci umat Islam.", "answer": "ALQURAN", "point_reward": 10, "fact_short": "Al-Quran adalah kalam Allah yang diturunkan kepada Nabi Muhammad SAW." },
+        { "id": 2, "clue": "Tempat ibadah umat Islam.", "answer": "MASJID", "point_reward": 10, "fact_short": "Masjid secara harfiah berarti tempat sujud." },
+        { "id": 3, "clue": "Nabi pertama yang diciptakan Allah.", "answer": "ADAM", "point_reward": 10, "fact_short": "Nabi Adam AS adalah bapak seluruh umat manusia." },
+        { "id": 4, "clue": "Ibadah wajib 5 kali sehari.", "answer": "SHALAT", "point_reward": 10, "fact_short": "Shalat adalah tiang agama dalam Islam." },
+        { "id": 5, "clue": "Bulan suci tempat umat Islam berpuasa.", "answer": "RAMADHAN", "point_reward": 10, "fact_short": "Ramadhan adalah bulan diturunkannya Al-Quran." },
+        { "id": 16, "clue": "Malaikat penyampai wahyu.", "answer": "JIBRIL", "point_reward": 10, "fact_short": "Jibril adalah pemimpin para malaikat." },
+        { "id": 17, "clue": "Rukun Islam yang pertama.", "answer": "SYAHADAT", "point_reward": 10, "fact_short": "Syahadat adalah persaksian tiada Tuhan selain Allah." },
+        { "id": 18, "clue": "Nabi yang membangun Ka'bah.", "answer": "IBRAHIM", "point_reward": 10, "fact_short": "Nabi Ibrahim membangun Ka'bah bersama putranya, Ismail." },
+        { "id": 19, "clue": "Air suci dari Mekkah.", "answer": "ZAMZAM", "point_reward": 10, "fact_short": "Sumur Zamzam muncul saat Siti Hajar mencari air untuk Ismail." },
+        { "id": 20, "clue": "Kiblat umat Islam.", "answer": "KABAH", "point_reward": 10, "fact_short": "Ka'bah terletak di Masjidil Haram, Mekkah." }
+      ]
+    },
+    {
+      "level": "Medium",
+      "grid_config": "10x10",
+      "questions": [
+        { "id": 6, "clue": "Gelar Nabi Muhammad karena kejujurannya.", "answer": "ALAMIN", "point_reward": 25, "fact_short": "Al-Amin berarti orang yang dapat dipercaya." },
+        { "id": 7, "clue": "Sahabat Nabi yang dijuluki Al-Faruq.", "answer": "UMARBIN", "point_reward": 25, "fact_short": "Umar bin Khattab dikenal karena ketegasannya membedakan hak dan batil." },
+        { "id": 8, "clue": "Perjalanan malam Nabi dari Masjidil Haram ke Masjidil Aqsa.", "answer": "ISRAMIRAJ", "point_reward": 25, "fact_short": "Peristiwa ini menghasilkan perintah shalat lima waktu." },
+        { "id": 9, "clue": "Zakat yang wajib dibayar sebelum Idul Fitri.", "answer": "FITRAH", "point_reward": 25, "fact_short": "Zakat fitrah berfungsi mensucikan jiwa orang yang berpuasa." },
+        { "id": 10, "clue": "Kota tempat Nabi Muhammad hijrah.", "answer": "MADINAH", "point_reward": 25, "fact_short": "Sebelumnya kota ini bernama Yatsrib." },
+        { "id": 21, "clue": "Istri pertama Nabi Muhammad SAW.", "answer": "KHADIJAH", "point_reward": 25, "fact_short": "Khadijah adalah orang pertama yang beriman kepada risalah Nabi." },
+        { "id": 22, "clue": "Perang pertama dalam sejarah Islam.", "answer": "BADAR", "point_reward": 25, "fact_short": "Perang Badar terjadi pada 17 Ramadhan tahun 2 Hijriah." },
+        { "id": 23, "clue": "Sahabat Nabi yang dijuluki Dzun Nurain.", "answer": "UTSMAN", "point_reward": 25, "fact_short": "Utsman bin Affan menikahi dua putri Rasulullah SAW." },
+        { "id": 24, "clue": "Tata cara bersuci sebelum shalat.", "answer": "WUDHU", "point_reward": 25, "fact_short": "Wudhu adalah syarat sahnya shalat." },
+        { "id": 25, "clue": "Gunung tempat Nabi menerima wahyu pertama.", "answer": "HIRA", "point_reward": 25, "fact_short": "Gua Hira terletak di Jabal Nur." }
+      ]
+    },
+    {
+      "level": "Hard",
+      "grid_config": "15x15",
+      "questions": [
+        { "id": 11, "clue": "Sistem bagi hasil dalam ekonomi syariah.", "answer": "MUDHARABAH", "point_reward": 50, "fact_short": "Mudharabah adalah akad kerja sama usaha antara pemilik modal dan pengelola." },
+        { "id": 12, "clue": "Ilmuwan Muslim penemu angka nol dan aljabar.", "answer": "ALKHWARIZMI", "point_reward": 50, "fact_short": "Beliau adalah tokoh matematika terpenting dalam sejarah peradaban Islam." },
+        { "id": 13, "clue": "Bagian warisan yang sudah ditentukan dalam Al-Quran.", "answer": "FURUDHUL", "point_reward": 50, "fact_short": "Faraidh adalah ilmu yang mempelajari pembagian harta warisan." },
+        { "id": 14, "clue": "Metode penafsiran Al-Quran berdasarkan riwayat.", "answer": "BILMATSUR", "point_reward": 50, "fact_short": "Tafsir bil Matsur mengandalkan ayat lain, hadits, atau perkataan sahabat." },
+        { "id": 15, "clue": "Zaman keemasan Islam di Baghdad dipimpin dinasti ini.", "answer": "ABBASIYAH", "point_reward": 50, "fact_short": "Dinasti Abbasiyah mendirikan Baitul Hikmah sebagai pusat ilmu pengetahuan." },
+        { "id": 26, "clue": "Ilmuwan Muslim bapak kedokteran modern.", "answer": "IBNUSINA", "point_reward": 50, "fact_short": "Ibnu Sina menulis kitab Al-Qanun fi al-Tibb yang menjadi rujukan dunia." },
+        { "id": 27, "clue": "Akad jual beli dengan penyerahan barang di awal.", "answer": "SALAM", "point_reward": 50, "fact_short": "Akad Salam sering digunakan dalam pembiayaan pertanian syariah." },
+        { "id": 28, "clue": "Tokoh sufi yang terkenal dengan konsep cinta Ilahi.", "answer": "RABIAH", "point_reward": 50, "fact_short": "Rabiah al-Adawiyah adalah tokoh sufi wanita terkemuka." },
+        { "id": 29, "clue": "Ilmuwan Muslim penemu kamera obscura.", "answer": "IBNUHAITHAM", "point_reward": 50, "fact_short": "Ibnu al-Haitham adalah bapak optik modern." },
+        { "id": 30, "clue": "Penjelajah Muslim yang berkeliling dunia.", "answer": "IBNUBATTUTA", "point_reward": 50, "fact_short": "Ibnu Battuta menjelajah lebih dari 120.000 km selama 30 tahun." }
+      ]
+    }
+  ]
+}

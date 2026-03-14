@@ -1,0 +1,26 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Stores user progress and points.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID" },
+        "displayName": { "type": "string", "description": "User's display name" },
+        "totalPoints": { "type": "number", "description": "Total points earned" },
+        "completedQuestions": { 
+          "type": "array", 
+          "items": { "type": "number" },
+          "description": "IDs of questions already answered correctly"
+        }
+      },
+      "required": ["uid", "totalPoints"]
+    }
+  },
+  "firestore": {
+    "/users/{uid}": {
+      "schema": "User",
+      "description": "User progress documents"
+    }
+  }
+}
