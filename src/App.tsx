@@ -98,6 +98,9 @@ export default function App() {
         setProfile(null);
         setLoading(false);
       }
+    }, (error) => {
+      console.error("Auth Error:", error);
+      setLoading(false);
     });
     return unsubscribe;
   }, []);
@@ -120,6 +123,10 @@ export default function App() {
         setDoc(doc(db, 'users', user.uid), newProfile);
         setProfile(newProfile);
       }
+      setLoading(false);
+    }, (error) => {
+      console.error("Firestore Error:", error);
+      setFeedback({ type: 'error', message: 'Gagal memuat profil. Pastikan koneksi internet stabil.' });
       setLoading(false);
     });
 
@@ -229,6 +236,21 @@ export default function App() {
     }
   };
 
+  const handleLogin = async () => {
+    try {
+      await signInWithGoogle();
+    } catch (error: any) {
+      console.error("Login Error:", error);
+      if (error.code === 'auth/popup-blocked') {
+        alert('Popup diblokir! Harap izinkan popup untuk login.');
+      } else if (error.code === 'auth/unauthorized-domain') {
+        alert('Domain ini belum terdaftar di Firebase. Harap tambahkan domain Netlify Anda di Firebase Console.');
+      } else {
+        alert('Gagal masuk: ' + error.message);
+      }
+    }
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#F5F5F0]">
@@ -270,7 +292,7 @@ export default function App() {
               Selamat datang! Mari belajar Islam dengan cara yang seru, ceria, dan penuh hikmah.
             </p>
             <button 
-              onClick={signInWithGoogle}
+              onClick={handleLogin}
               className="w-full max-w-xs mx-auto py-4 bg-[#FFC107] hover:bg-[#FFB300] text-[#1A1A1A] font-bold rounded-2xl flex items-center justify-center gap-3 transition-all shadow-md active:scale-95"
             >
               <LogIn className="w-5 h-5" />
